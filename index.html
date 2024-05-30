@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SISTEMA METEOROLÓGICO UTA</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/style.css">
+	<head>
+	
+
+	<body>
+		<div class="navBarDiv">
+			<img src="assets/images/banderin.png" alt="Smiley face" height="50" width="50">
+			<ul class="topnav">
+				<li><a class="active" href="#dashboard">Visualizador&nbsp;<i class="fa fa-angle-down"></i></a></li>
+				<li><a href="#apps">Apps&nbsp;<i class="fa fa-angle-down"></i></a></li>
+				<li><a href="#pages">Pages&nbsp;<i class="fa fa-angle-down"></i></a></li>
+				<li><a href="#components">Components</a></li>
+				<li><a href="#collections">Collections</a></li>
+			</ul>
+		</div>
+		
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<b><span> Dashboard Sistema Meteorológico UTA </span> / <span id="activePage"> DATOS ANALÍTICOS  </span></b>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-7">
+					<b><span>Bienvenidos al Sistema de Monitoreo Meteorológico de la Universidad Técnica De Ambato</span></b>
+				</div>
+				<div class="col-sm-1">
+					<div class="sideButtons" style="padding: 0px 0px 3px 30px;"><i class="fa fa-save"></i>&nbsp;GUARDAR</div>
+				</div>
+				<div class="col-sm-1">
+					<div class="sideButtons" style="padding: 0px 0px 3px 30px;"><i class="fa fa-file-export"></i>&nbsp;EXPORTAR</div>
+				</div>
+				<div class="col-sm-1">
+					<div class="sideButtons" style="padding: 0px 0px 3px 30px;"><i class="fa fa-share"></i>&nbsp;COMPARTIR</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="sideButtons" style="padding: 0px 0px 3px 50px;"><i class="fa fa-sliders-h"></i>&nbsp;CONFIGURACION</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				
+				<div class="col-sm-5">
+					<figure class="highcharts-figure">
+						<div id="container"></div>
+					</figure>
+				</div>
+				<div class="col-sm-3">
+				<br>
+				<br>
+					<ul class="topnav downNav">
+						<li><a class="active" href="#day">Diario</a></li>
+						<li><a href="#week">Semanal</a></li>
+						<li><a href="#month">Mensual</a></li>
+					</ul>
+					<figure class="highcharts-figure">
+						<div id="container1"></div>
+						<div id="container2"></div>
+						<div id="container3"></div>
+						<div id="container4"></div>
+					</figure>
+				</div>
+				<div class="col-sm-4">
+					<figure class="highcharts-figure">
+						<div id="container5"></div>
+					</figure>
+				</div>
+			</div>
+			
+			<figure class="highcharts-figure">
+				<div id="container"></div>
+			</figure>
+		</div>
+		
+		
+	</body>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/modules/export-data.js"></script>
+	<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+	<script src="assets/js/script.js"></script>
+
+	
+
+
+	
+</html>
